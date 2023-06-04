@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Pixiu's Website!</title>
+    <script type="text/javascript">
+  (function() {
+    var blinks = document.getElementsByTagName('blink');
+    var visibility = 'hidden';
+    window.setInterval(function() {
+      for (var i = blinks.length - 1; i >= 0; i--) {
+        blinks[i].style.visibility = visibility;
+      }
+      visibility = (visibility === 'visible') ? 'hidden' : 'visible';
+    }, 250);
+  })();
+</script>
+    <style>
+      .truth {
+      background-image: url("eyes.jpg");
+        color: red;
+      };
+    </style>
+  </head>
+  <body background="bluerock.jpg" link="#FF0000" vlink="#0000FF" alink="#FFFFFF" text="#FFFF00">
+    <center>
+      <marquee>PIXIU'S WEBSITE</marquee><br />
+    <blink>THE BEST EVER!!!</blink><br />
+      <img src="genie.gif"><img src="genie.gif"><img src="genie.gif"><img src="genie.gif"><img src="genie.gif"><img src="genie.gif"><br />
+      <h1>MY NAME IS PIXIU</h1>
+      <h2>I love sotryes</h2>
+      <h3>but then again</h3>
+      <div class="truth">
+      <h1>I HATE THE TRUTH</h1>
+        <p>but i'll tell you it anyways</p>
+        <p>You won't mind my true colors, right?</p>
+        <h1>Pixiu</h1>
+        <li>Age: 128 (disguised as a 3 year old)</li>
+        <li>Escapes death a lot</li>
+        <li>Parents died at a young age</li>
+        <li>Soul often goes from one body to the next when he's often caught by the death deities</li>
+        <li>Hates the truth</li>
+        <li>Did he mention that he hates the truth?</li>
+      </div>
+    </center>
+  </body>
+</html>
